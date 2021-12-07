@@ -1,0 +1,21 @@
+.pageBlocks{
+    padding-top: 5%;
+    h3{
+        font-size: 15px;
+        display: inline-block;
+        border-bottom: 3px solid blue;
+        margin-left: 12%;
+    }
+    background: white;
+    border-radius: 5px;
+    border:1px solid grey;
+    li{
+        padding:10px;
+        color: #797979;
+        a{
+            i{
+                margin-right: 3%;
+            }
+        }
+    }
+}

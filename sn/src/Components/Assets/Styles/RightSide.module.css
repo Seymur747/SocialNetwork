@@ -1,0 +1,25 @@
+.wrapper {
+  background: white;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 20px; }
+  .wrapper h4 {
+    font-size: 15px;
+    display: inline-block;
+    border-bottom: 3px solid blue; }
+  .wrapper .imageDiv {
+    display: inline-block;
+    height: 50px;
+    width: 50px; }
+    .wrapper .imageDiv img {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%; }
+  .wrapper .datasDiv {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 10px; }
+  .wrapper .likesDiv {
+    text-align: center; }
+
+/*# sourceMappingURL=RightSide.module.css.map */

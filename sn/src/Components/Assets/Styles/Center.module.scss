@@ -1,0 +1,52 @@
+.wraper{
+    
+    width: 100%;
+    border: 1px solid grey;
+    background: white;
+    border-radius: 5px ;
+    padding: 4%;
+    .attachements{
+       padding: 10px;
+        ul{
+            margin-top: 2%;
+            float: right;
+            padding-right: 3%;
+            li{
+                float: left;
+                margin-left: 1em;
+                i{
+                    color: #545454;
+                }
+            }
+    }
+     input{
+         display: none;
+     }
+    }
+    .textAreaBox{  
+        margin-left: 10px; 
+        width: 85%;
+        border-radius: 3px;
+        textarea{
+            resize: none;
+            border: none;
+            outline:none
+        }
+   
+        border: 1px solid lightgray;
+         display: inline-block;
+    }
+    .imageBox{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 4em;
+ 
+    img{
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    }
+}

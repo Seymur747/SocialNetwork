@@ -1,0 +1,41 @@
+.wraper {
+  width: 100%;
+  border: 1px solid grey;
+  background: white;
+  border-radius: 5px;
+  padding: 4%; }
+  .wraper .attachements {
+    padding: 10px; }
+    .wraper .attachements ul {
+      margin-top: 2%;
+      float: right;
+      padding-right: 3%; }
+      .wraper .attachements ul li {
+        float: left;
+        margin-left: 1em; }
+        .wraper .attachements ul li i {
+          color: #545454; }
+    .wraper .attachements input {
+      display: none; }
+  .wraper .textAreaBox {
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    display: inline-block; }
+    .wraper .textAreaBox textarea {
+      resize: none;
+      border: none;
+      outline: none; }
+  .wraper .imageBox {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 4em; }
+    .wraper .imageBox img {
+      border-radius: 100%;
+      height: 100%;
+      width: 100%; }
+
+/*# sourceMappingURL=Center.module.css.map */
