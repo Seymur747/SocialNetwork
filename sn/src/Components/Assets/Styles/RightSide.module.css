@@ -3,6 +3,11 @@
   border-radius: 5px;
   border: 1px solid grey;
   padding: 20px; }
+  .wrapper button {
+    border: 0px;
+    width: 50%;
+    border-radius: 10px;
+    color: white; }
   .wrapper h4 {
     font-size: 15px;
     display: inline-block;
@@ -10,7 +15,9 @@
   .wrapper .imageDiv {
     display: inline-block;
     height: 50px;
-    width: 50px; }
+    width: 50px;
+    position: relative;
+    bottom: 2em; }
     .wrapper .imageDiv img {
       height: 100%;
       width: 100%;
@@ -19,7 +26,12 @@
     display: inline-block;
     padding-top: 10px;
     margin-left: 10px; }
+    .wrapper .datasDiv span {
+      display: block; }
   .wrapper .likesDiv {
+    padding: 10px;
     text-align: center; }
+  .wrapper .firstBut {
+    background: #5050f3; }
 
 /*# sourceMappingURL=RightSide.module.css.map */

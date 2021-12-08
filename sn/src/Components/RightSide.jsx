@@ -14,14 +14,16 @@ let RightSide=()=>{
                 </div>
                 <div  className={s.datasDiv}>
                     <h6>My Page</h6>
-                    <h6>Messages</h6>
-                    <h6>Notification</h6>
-                    <button>Likes</button>
+                    <span><i className="fa fa-comment"></i><a href="insight.html" title="">Messages <em>9</em></a></span>
+                    <span><i className="fa fa-comment"></i><a href="insight.html" title="">Notification <em>2</em></a></span>
+                </div>
+                <div>
+                    <button className={s.firstBut}>Likes</button>
                     <button>Views</button>
                 </div>
             </div>
             <div className={s.likesDiv}>
-                <span>884</span>
+                <span><i className='fa fa-heart'></i> 884</span>
                 <br/>
                 <a href="">35 new likes  this week</a>
             </div>

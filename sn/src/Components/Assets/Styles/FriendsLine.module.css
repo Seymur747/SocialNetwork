@@ -1,0 +1,13 @@
+.friendsList {
+  background: white;
+  padding: 10px 0px 10px 0px; }
+  .friendsList .imageDiv {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 20px; }
+    .friendsList .imageDiv img {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%; }
+
+/*# sourceMappingURL=FriendsLine.module.css.map */

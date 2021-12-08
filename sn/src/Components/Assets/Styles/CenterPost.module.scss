@@ -1,0 +1,38 @@
+.centerWrapper{
+    padding: 20px;
+margin-top: 15px;
+border: 1px solid black;
+border-radius: 10px;
+background: white;
+    .imageBox{
+        height: 50px;
+        width: 50px;
+        float: left;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+    .imageBox2{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .greyLittle{
+        color: #999;
+        font-size: 12px;
+    }
+    .iconsBox{
+        ul{
+            li{
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+    .commentArea{
+        border: 1px solid grey;
+    }
+}

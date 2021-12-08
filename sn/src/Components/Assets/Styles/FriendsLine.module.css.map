@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACR,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,iBAAiB;EAC1B,sBAAS;IACL,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI;IACX,aAAa,EAAE,IAAI;IAEnB,0BAAG;MACC,MAAM,EAAE,IAAI;MACZ,KAAK,EAAE,IAAI;MACX,aAAa,EAAE,IAAI",
+"sources": ["FriendsLine.module.scss"],
+"names": [],
+"file": "FriendsLine.module.css"
+}

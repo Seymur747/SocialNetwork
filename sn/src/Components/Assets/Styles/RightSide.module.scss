@@ -3,6 +3,13 @@
     border-radius: 5px ;
     border:1px solid grey;
     padding: 20px;
+    button{
+        border: 0px;
+        width: 50%;
+        border-radius: 10px;
+        color: white;
+
+    }
     h4{
         font-size: 15px;
         display: inline-block;
@@ -12,6 +19,8 @@
         display: inline-block;
         height: 50px;
         width: 50px;
+        position: relative;
+        bottom: 2em;
         img{
             height: 100%;
             width: 100%;
@@ -22,8 +31,15 @@
         display: inline-block;
         padding-top: 10px;
         margin-left: 10px;
+        span{
+            display: block;
+        }
     }
     .likesDiv{
+        padding: 10px;
         text-align: center;
+    }
+    .firstBut{
+        background: rgb(80, 80, 243);
     }
 }

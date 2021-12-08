@@ -11,7 +11,7 @@ let Main=()=>{
                 <div className='col-md-3'><LeftSide/></div>
                 <div className='col-md-5'><Center/></div>
                 <div className='col-md-3'><RightSide/></div>
-                <div className='col-md-1'><FriendsLine/>f</div>
+                <div className='col-md-1'><FriendsLine/></div>
             </div>
         </div>
     )

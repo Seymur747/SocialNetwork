@@ -1,9 +1,11 @@
 import React from "react";
 import s from './Assets/Styles/Center.module.css'
 import admin from './Assets/Images/admin.jpg'
+import CenterPost from './CenterPost.jsx'
 
 let Center=()=>{
     return (
+       <>
         <div className={s.wraper}>
             <div className={s.postBox}>
                 <div className={s.imageBox}>
@@ -39,6 +41,8 @@ let Center=()=>{
                 </div>
             </div>
         </div>
+        <CenterPost/>
+       </>
     )
 }
 export default Center
